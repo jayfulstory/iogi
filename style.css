@@ -25,6 +25,9 @@ h1 {
 .font {
   font-family: 'Rampart One', cursive;
 }
+.title {
+  font-family: 'Rampart One', cursive;
+}
 .header {
   height: 100vh;
   position: fixed;
@@ -115,7 +118,7 @@ h1 {
   display: block;
   cursor: pointer;
   z-index: 90;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .nav.close {
@@ -180,9 +183,6 @@ li a:hover {
   padding-top: 120px;
 }
 
-.title {
-  font-family: 'Rampart One', cursive;
-}
 rt {
   font-size: 1rem;
 }
