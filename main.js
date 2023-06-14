@@ -3,7 +3,7 @@ const nav = document.querySelector('.nav');
 const navMenu = document.querySelector('.nav--menu');
 const logo = document.querySelector('.logo--rotate');
 const overlay = document.querySelector('.overlay');
-const aElems = document.querySelectorAll('a');
+const aElems = document.querySelectorAll('li a');
 
 hamburger.addEventListener('click', () => {
   overlay.classList.remove('on');
