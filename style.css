@@ -110,8 +110,8 @@ h1 {
   margin: 0 65px 0 0;
   overflow: hidden;
   border: none;
-  background-color: transparent;
-  transition: all 0.5s ease;
+  /* background-color: transparent; */
+  /* transition: all 0.5s ease; */
 }
 
 .overlay.on {
