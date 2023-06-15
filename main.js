@@ -7,10 +7,10 @@ const aElems = document.querySelectorAll('.menu--item');
 console.log(aElems);
 
 hamburger.addEventListener('click', () => {
-  overlay.classList.remove('on');
   if (nav.classList.contains('open')) {
     nav.classList.add('close');
     setTimeout(() => {
+      overlay.classList.remove('on');
       nav.classList.remove('open');
       nav.classList.remove('close');
     }, 600);
