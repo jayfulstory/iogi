@@ -4,7 +4,6 @@ const navMenu = document.querySelector('.nav--menu');
 const logo = document.querySelector('.logo--rotate');
 const overlay = document.querySelector('.overlay');
 const aElems = document.querySelectorAll('.menu--item');
-console.log(aElems);
 
 hamburger.addEventListener('click', () => {
   if (nav.classList.contains('open')) {
